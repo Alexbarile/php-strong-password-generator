@@ -1,5 +1,13 @@
 <?php
 
+    function generatePass($lunghezza){
+        $characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|<>,.?/\ ";
+        $password= '';
+        for($i=0; $i<$lunghezza; $i++){
+            $password .= $characters[rand(0, strlen($characters) -1)];
+        }
+        return $password;
+    }
     
 
    
@@ -33,6 +41,7 @@
                         </div>
                         <div class="col-12 mt-2">
                             <div class="bg-white rounded-2">
+
                                 <form action="./index.php" method="GET">
                                     <div class="d-flex p-4">
                                         <div class="col-6">
@@ -55,6 +64,7 @@
                                         <button type="reset" class="btn btn-secondary">Annulla</button>
                                     </div>
                                 </form>
+
                             </div>  
                         </div>
                     </div>
