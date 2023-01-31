@@ -1,5 +1,7 @@
 <?php
-      
+    
+    // funzione per password randomica
+
     function generatePass($lunghezza){
         $characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|<>,.?/\ ";
         $password= '';

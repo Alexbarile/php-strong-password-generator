@@ -3,6 +3,8 @@
     include __DIR__. '/./functions.php';
     session_start();
 
+    // per aprire la password in un'altra pagina
+
     $_SESSION['password'] = $_GET['password'];
     if(empty($_SESSION['password'])){
         header("Location:./index.php");
