@@ -1,4 +1,7 @@
 <?php
+
+    
+
    
 ?>
 
@@ -24,7 +27,7 @@
                 <div class="col-9">
                     <div class="row">
                         <div class="col-12">
-                            <div class="bg-white rounded-2 p-4 mb-3">
+                            <div class="bg-white rounded-2 p-4 mb-3">  
                                 <span>Nessun parametro valido inserito</span>
                             </div>
                         </div>
@@ -36,7 +39,15 @@
                                             <label for="inputPassword6" class="col-form-label">Lunghezza Password:</label>
                                         </div>
                                         <div class="col-3">
-                                            <input type="password" name="password" id="inputPassword6" class="form-control" placeholder="numero">
+                                            <input type="number" name="password" id="inputPassword6" class="form-control" placeholder="Inserisci un numero">
+                                        </div>                                        
+                                    </div>
+                                    <div class="d-flex p-4">
+                                        <div class="col-6">
+                                            <label for="inputPassword6" class="col-form-label">Password Generata:</label>
+                                        </div>
+                                        <div class="col-3">
+                                            <input type="text" class="form-control" placeholder="Nessun parametro">
                                         </div>                                        
                                     </div>
                                     <div class="col-12 p-4">
