@@ -33,7 +33,7 @@
                         <div class="col-12 mt-2">
                             <div class="bg-white rounded-2">
 
-                                <form action="./index.php" method="GET">
+                                <form action="./newpassword.php" method="GET">
                                     <div class="d-flex p-4">
                                         <div class="col-6">
                                             <label for="inputPassword6" class="col-form-label">Lunghezza Password:</label>
