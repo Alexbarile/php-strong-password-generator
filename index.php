@@ -1,5 +1,7 @@
 <?php
 
+    $lunghezza = $_GET['password'];
+    
     function generatePass($lunghezza){
         $characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|<>,.?/\ ";
         $password= '';
@@ -56,7 +58,7 @@
                                             <label for="inputPassword6" class="col-form-label">Password Generata:</label>
                                         </div>
                                         <div class="col-3">
-                                            <input type="text" class="form-control" placeholder="Nessun parametro">
+                                            <input type="text" class="form-control" placeholder="Nessun parametro"><?php echo generatePass($lunghezza); ?>
                                         </div>                                        
                                     </div>
                                     <div class="col-12 p-4">
