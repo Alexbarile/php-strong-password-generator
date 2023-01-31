@@ -1,7 +1,7 @@
 <?php
 
-    include __DIR__. '/./functions.php'
-
+    include __DIR__. '/./functions.php';
+   
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +47,7 @@
                                             <label for="inputPassword6" class="col-form-label">Password Generata:</label>
                                         </div>
                                         <div class="col-3">
-                                            <input type="text" class="form-control" placeholder="Nessun parametro">
+                                            <input type="text" class="form-control" placeholder="Nessun parametro" value="<?php echo generatePass($_GET['password']); ?>">                                            
                                         </div>                                        
                                     </div>
                                     <div class="col-12 p-4">
