@@ -11,4 +11,14 @@
         return $password;
     }
 
+    // $error = '';
+    // if(isset ($_GET['password']) && $_GET['password'] < 8 || $_GET['password'] > 32){
+    //     $error= 'Valore sbagliato';
+    // }
+    // elseif(isset ($_GET['password']) && $_GET['password'] !== ''){
+    //     generatePass($_GET['password']);
+
+    // }
+    
+
 ?>

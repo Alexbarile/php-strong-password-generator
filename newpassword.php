@@ -1,7 +1,7 @@
 <?php
 
-    include __DIR__. '/./functions.php';
     session_start();
+    include __DIR__. '/./functions.php';
 
     // per aprire la password in un'altra pagina
 
@@ -23,10 +23,12 @@
         <title>PHP Password</title>
     </head>
     <body>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-secondary">La tua password è: <?php echo generatePass($_GET['password']); ?></h1>
+                    <div class="bg-white rounded-2 p-4 mb-3">  
+                        <span class="text-secondary">La tua password è: <?php echo generatePass($_GET['password']); ?></span>                                
+                    </div>
                 </div>
             </div>
         </div>

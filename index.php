@@ -44,14 +44,16 @@
                                             <input type="number" name="password" id="inputPassword6" class="form-control" placeholder="Inserisci un numero">
                                         </div>                                        
                                     </div>
-                                    <div class="d-flex p-4">
+
+                                    <!-- <div class="d-flex p-4">
                                         <div class="col-6">
                                             <label for="inputPassword6" class="col-form-label">Password Generata:</label>
                                         </div>
                                         <div class="col-3">
                                             <input type="text" class="form-control" placeholder="Nessun parametro" value="<?php echo generatePass($_GET['password']); ?>">                                            
                                         </div>                                        
-                                    </div>
+                                    </div> -->
+                                    
                                     <div class="col-12 p-4">
                                         <button type="submit" class="btn btn-primary">Invia</button>
                                         <button type="reset" class="btn btn-secondary">Annulla</button>
